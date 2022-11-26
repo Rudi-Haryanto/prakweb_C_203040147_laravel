@@ -1,5 +1,6 @@
 {{-- @dd($posts) --}}
 @extends('layout.main')
+{{-- @extends('layout.main')
 @section('container')
     
 @foreach ($posts as $post)
@@ -12,4 +13,7 @@
     {!! $post->body !!}
 </article>    
 @endforeach
+
 @endsection
+
+--}}
